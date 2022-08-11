@@ -9,8 +9,6 @@ function radianToDegree(radian) {
         return (radian * 180 / Math.PI).toFixed(2);
     }
 }
-
-
 // -----------------------------------------------------------------
 // Problem 2. check whether the given file name is a javascript file or not
 // -----------------------------------------------------------------
@@ -27,8 +25,6 @@ function isJavaScriptFile(fileStringName) {
         }
     }
 }
-
-
 // -------------------------------------------------------------------
 // Problem 3. calculate the total oil price that I have to pay
 // -------------------------------------------------------------------
@@ -46,8 +42,6 @@ function oilPrice(dieselQuantity, petrolQuantity, octaneQuantity) {
         return 114 * dieselQuantity + 130 * petrolQuantity + 135 * octaneQuantity;
     }
 }
-
-
 // --------------------------------------------------------------------
 // Problem 4: publicBusFare
 // --------------------------------------------------------------------
@@ -61,8 +55,6 @@ function publicBusFare(quantity) {
         return remainingAfterMicrobus * 250;
     }
 }
-
-
 // --------------------------------------------------------------------
 // Problem 5: isBestFriend
 // --------------------------------------------------------------------
@@ -85,3 +77,17 @@ function isBestFriend(object1, object2) {
 
 
 
+
+
+console.log(radianToDegree(10));
+
+console.log(isJavaScriptFile('app.js'));
+
+console.log(oilPrice(30, 20, 10));
+
+console.log(publicBusFare(55));
+
+console.log(isBestFriend(
+    { name: "abul", friend: "babul" },
+    { name: "babul", friend: "abul" }
+));
